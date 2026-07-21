@@ -59,9 +59,7 @@ Le fichier .litematic converti sera généré dans le même répertoire.
 
 📂 Architecture du Code
 
-Fonction
-
-Description
+|Fonction |Description|
 
 main()
 
