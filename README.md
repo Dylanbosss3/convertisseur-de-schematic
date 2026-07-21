@@ -59,31 +59,14 @@ Le fichier .litematic converti sera généré dans le même répertoire.
 
 📂 Architecture du Code
 
-|Fonction |Description|
-
-main()
-
-Point d'entrée : charge la clé API, lit le fichier .schematic, orchestre l'appel IA et lance la conversion.
-
-listeblock()
-
-Extrait la liste unique des paires (ID, Data) présentes dans le fichier NBT.
-
-request()
-
-Envoie la liste des blocs à l'API Gemini et récupère la table de conversion au format JSON structuré.
-
-convert()
-
-Parcourt la grille 3D du monde et reconstruit la région au format Litematica.
-
-split_blockstate()
-
-Separe le nom du bloc et ses propriétés (ex: minecraft:chest[facing=north] ➔ ID + dictionnaire de propriétés).
-
-get_data_nibble()
-
-Extrait le nibble (4 bits) correspondant à l'index de bloc dans le tableau de données NBT.
+| Fonction | Description |
+| --- | --- |
+| `main()` | Point d'entrée : charge la clé API, lit le fichier `.schematic`, orchestre l'appel IA et lance la conversion. |
+| `listeblock()` | Extrait la liste unique des paires `(ID, Data)` présentes dans le fichier NBT. |
+| `request()` | Envoie la liste des blocs à l'API Gemini et récupère la table de conversion au format JSON structuré. |
+| `convert()` | Parcourt la grille 3D du monde et reconstruit la région au format Litematica. |
+| `split_blockstate()` | Sépare le nom du bloc et ses propriétés (ex: `minecraft:chest[facing=north]`). |
+| `get_data_nibble()` | Extrait le nibble (4 bits) correspondant à l'index de bloc dans le tableau NBT. |
 
 👤 Auteur
 
