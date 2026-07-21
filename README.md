@@ -73,6 +73,6 @@ Le fichier .litematic converti sera généré dans le même répertoire.
 
 Dylan — Développeur Software & Administrateur Système Linux
 
-GitHub : @votre-pseudo
+GitHub : @Dylanbosss3
 
 Services Freelance : Développement Python / Java / C# & Administration Infrastructure Linux.
