@@ -29,11 +29,11 @@ nbtlib (Lecture/Écriture des fichiers NBT)
 🚀 Installation & Configuration
 
 1. Cloner le projet & installer les dépendances
-
+```
 git clone https://github.com/votre-pseudo/mineconvertion.git
 cd mineconvertion
 pip install google-genai litemapy nbtlib
-
+```
 
 2. Clé API Gemini
 
@@ -46,14 +46,15 @@ Créez un fichier clée.txt dans le dossier du projet (ou adaptez le chemin dans
 Placez votre fichier .schematic à convertir dans votre dossier de travail.
 
 Mettez à jour le chemin du fichier dans la fonction main() du script :
-
+```
 fichschema = r"chemin/vers/votre_fichier.schematic"
-
+```
 
 Exécutez le script :
+```
 
 python main.py
-
+```
 
 Le fichier .litematic converti sera généré dans le même répertoire.
 
